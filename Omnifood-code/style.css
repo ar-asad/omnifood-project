@@ -213,6 +213,89 @@ body {
     opacity: 55%;
 }
 
+/* Section-how style here */
+/* .................. */
+.grid {
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2__cells {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid--3__cells {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4__cells {
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid--5__cells {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.grid--align__v {
+    align-items: center;
+}
+
+.how-img-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-img-box img {
+    width: 35%;
+}
+
+.container {
+    padding: 0 4rem;
+    width: 120rem;
+    margin: 0 auto;
+
+}
+
+.text-number {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+}
+
+.section-how {
+    padding: 9.6rem 0;
+}
+
+.how-img-box::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    padding-bottom: 60%;
+    width: 60%;
+    background-color: #fff4e6;
+    border-radius: 50%;
+    z-index: -2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.how-img-box::after {
+    position: absolute;
+    content: " ";
+    display: block;
+    padding-bottom: 45%;
+    width: 45%;
+    background-color: #f8e2c5;
+    border-radius: 50%;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* Footer style here */
 /* .................. */
