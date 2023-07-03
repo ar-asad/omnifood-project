@@ -58,6 +58,7 @@ body {
     border-radius: 8px;
 }
 
+
 /* banner section style here */
 /* .......................... */
 .section-hero {
@@ -210,4 +211,64 @@ body {
     height: 3.2rem;
     filter: brightness(0);
     opacity: 55%;
+}
+
+
+/* Footer style here */
+/* .................. */
+.footer-part {
+    padding: 9.6rem 0;
+    border-top: 1px solid #f7d8b0;
+    color: #222;
+    line-height: 1.5;
+}
+
+.footer-grid {
+    display: grid;
+    gap: 3.2rem;
+}
+
+.logo-col__text {
+    font-size: 1.6rem;
+
+
+}
+
+.header-logo {
+    margin-bottom: 4.8rem;
+}
+
+.footer-header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.address-text {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.address-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: inherit;
+
+}
+
+.nav-col__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.nav-col__item a {
+    font-size: 1.6rem;
+    color: #222;
+    text-decoration: none;
+
 }
