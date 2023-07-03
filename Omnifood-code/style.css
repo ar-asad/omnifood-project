@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 55.5%;
+
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff4e6;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.header-logo {
+    height: 2.4rem;
+}
+
+.main-nav-list {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover {
+    color: #c76108;
+}
+
+.main-nav-link.nav-cta {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+}
