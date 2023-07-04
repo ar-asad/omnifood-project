@@ -365,7 +365,66 @@ body {
     font-size: 1.6rem;
 }
 
+/* Testimonial section style here */
+/* .............................. */
+.section-testimonials {
+    padding: 9.6rem 0;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    background-color: #fff4e6;
+}
 
+.testimonials {
+    padding: 5.2rem;
+}
+
+.testimonials-text {
+    padding: 4.8rem 0;
+}
+
+.textimonials-contentbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.contentbox {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+}
+
+.contenbox-text {
+    font-size: 1.8rem;
+    line-height: 1.57;
+    margin-bottom: 2rem;
+}
+
+.contentbox-name {
+    font-size: 1.8rem;
+}
+
+.testimonials-img_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.7rem;
+
+}
+
+.textimonials-img-fig {
+    overflow: hidden;
+}
+
+.img-box {
+    display: block;
+    width: 100%;
+    transition: all .4s;
+    overflow: hidden;
+}
+
+.img-box:hover {
+    transform: scale(1.1);
+}
 
 /* Footer style here */
 /* .................. */
