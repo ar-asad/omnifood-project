@@ -59,7 +59,7 @@ body {
 }
 
 
-/* banner section style here */
+/* hero section style here */
 /* .......................... */
 .section-hero {
     padding: 4.8rem 0 9.6rem 0;
@@ -691,9 +691,9 @@ body {
         border-radius: 8px;
     }
 
-    /* make responsive here */
-    /* .................... */
 
+    /* make hero section mobile responsive here */
+    /* ........................................ */
     .hero {
         display: flex;
         flex-direction: column-reverse;
@@ -705,18 +705,21 @@ body {
         margin-bottom: 1.6rem;
     }
 
+    /* todo */
     .heading-secondary {
         font-size: 4.4rem;
         margin-bottom: 5.6rem;
         letter-spacing: -.75px;
     }
 
+    /* todo */
     .heading-tertiary {
         font-size: 2.5rem;
         margin-bottom: 3.2rem;
         letter-spacing: -.95px;
     }
 
+    /* todo */
     .subheading {
         display: block;
         font-size: 1.6rem;
@@ -742,29 +745,72 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 2rem;
+        gap: 1.6rem;
         margin-top: 3rem;
     }
 
-    .review-img {
-        margin-right: 1.5rem;
-    }
-
     .reviews-customer {
-        width: 4.8rem;
-        height: 4.8rem;
-        border-radius: 50%;
-        margin-right: -1.5rem;
-        border: 2px solid #fff4e6;
+        width: 4rem;
+        height: 4rem;
     }
 
-    .reviews-customer:last-child {
-        margin-right: 0;
+    /* make feature as sectiob responsive here */
+    /* ....................................... */
+    .feature-in {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #777;
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        margin-bottom: 3.2rem;
     }
 
-    .review-views {
-        color: #e67e22;
-
+    .section-feature {
+        padding: 4.8rem 0;
     }
+
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        /* justify-content: space-around; */
+        /* align-items: center; */
+    }
+
+    .logos img {
+        height: 2.8rem;
+    }
+
+
+    /* All application grid layout here */
+    /* ................................ */
+    .grid {
+        display: grid;
+        gap: 9.6rem;
+    }
+
+    .grid--2__cells {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid--3__cells {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid--4__cells {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .grid--5__cells {
+        grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+    }
+
+    .grid--align__v {
+        align-items: center;
+    }
+
+
+
 
 }
