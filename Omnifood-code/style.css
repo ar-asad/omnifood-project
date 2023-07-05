@@ -823,5 +823,38 @@ body {
     }
 
 
+    /* section-testimonial responsive */
+    /* ............................... */
+    .section-testimonials {
+        padding: 3.6rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: #fff4e6;
+    }
 
+    .testimonials {
+        padding: 2.2rem;
+    }
+
+    .testimonials-text {
+        padding: 1.8rem 0;
+    }
+
+    .textimonials-contentbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.8rem;
+    }
+
+    .contentbox-name {
+        font-size: 1.6rem;
+    }
+
+    .testimonials-img_box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+
+    }
 }
