@@ -697,7 +697,7 @@ body {
     .hero {
         display: flex;
         flex-direction: column-reverse;
-        gap: 4rem
+        gap: 6rem
     }
 
     .heading-primary {
@@ -705,19 +705,16 @@ body {
         margin-bottom: 1.6rem;
     }
 
-    /* todo */
     .heading-secondary {
         font-size: 3.4rem;
         margin-bottom: 3.5rem;
     }
 
-    /* todo */
     .heading-tertiary {
         font-size: 2rem;
         margin-bottom: 2.2rem;
     }
 
-    /* todo */
     .subheading {
         font-size: 1.3rem;
     }
@@ -750,7 +747,7 @@ body {
     /* make feature as section responsive here */
     /* ....................................... */
     .feature-in {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin-bottom: 3.0rem;
     }
 
@@ -761,10 +758,11 @@ body {
     .logos {
         display: flex;
         align-items: start;
+        gap: 1.3rem;
     }
 
     .logos img {
-        height: 1rem;
+        height: 1.2rem;
     }
 
 
@@ -776,7 +774,8 @@ body {
     }
 
     .grid--2__cells {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .grid--3__cells {
@@ -784,7 +783,7 @@ body {
     }
 
     .grid--4__cells {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .grid--5__cells {
@@ -823,6 +822,32 @@ body {
     }
 
 
+    /* section meals responsive */
+    /* ........................ */
+    .section-meals {
+        padding-bottom: 7.6rem;
+    }
+
+    .meals-title {
+        font-size: 2.2rem;
+        margin-bottom: 2.2rem;
+
+    }
+
+    .meals-tag {
+        padding: 3rem;
+    }
+
+    .tags {
+        font-size: 1.3rem;
+    }
+
+    .meals-remain {
+        gap: 1.8rem;
+
+    }
+
+
     /* section-testimonial responsive */
     /* ............................... */
     .section-testimonials {
@@ -857,4 +882,115 @@ body {
         gap: 1.2rem;
 
     }
+
+    /* make section-pricing responsive */
+    /* ............................... */
+
+    .section-pricing {
+        padding-top: 7.6rem;
+        padding-bottom: 4.2rem;
+    }
+
+    .pricing-header {
+        text-align: center;
+        margin-bottom: 4rem;
+
+    }
+
+    .pricing-card {
+        width: 85%;
+    }
+
+    .pricing-card__starter {
+        padding: 3.8rem;
+        justify-self: end;
+    }
+
+    .pricing-card__base {
+        padding: 4rem;
+    }
+
+    .pricing-name {
+        font-size: 4.4rem;
+    }
+
+    .pricing-name-inner {
+        font-size: 2.5rem;
+    }
+
+    .pricing-text {
+        font-size: 1.5rem;
+
+    }
+
+    .pricing-list-item {
+        font-size: 1.5rem;
+    }
+
+    /* make section-pricing responsive */
+    /* ............................... */
+    .section-cta {
+        padding: 5.6rem 0;
+    }
+
+    .cta-textbox {
+        padding: 4.8rem;
+
+    }
+
+    .cta-imgbox {
+        display: none;
+    }
+
+
+    .cta button {
+        padding: 1.4rem;
+    }
+
+    .cta-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.2rem;
+    }
+
+
+    /* make footer responsive */
+    /*......................... */
+
+    .footer-part {
+        padding: 7.6rem 0;
+
+    }
+
+    .footer-grid {
+        display: grid;
+        gap: 4.2rem;
+    }
+
+    .logo-col__text {
+        font-size: 1.6rem;
+    }
+
+    .header-logo {
+        margin-bottom: 2.8rem;
+    }
+
+    .footer-header {
+        font-size: 2rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .address-text {
+        font-size: 1.6rem;
+        margin-bottom: 1.6rem;
+
+
+    }
+
+    .nav-col__list {
+        gap: 1.8rem;
+
+    }
+
+
 }
