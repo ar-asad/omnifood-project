@@ -58,6 +58,12 @@ body {
     border-radius: 8px;
 }
 
+.nav-iconbox {
+    display: none;
+}
+
+
+
 
 /* hero section style here */
 /* .......................... */
@@ -689,6 +695,14 @@ body {
         color: #fff;
         padding: 1rem 1.5rem;
         border-radius: 8px;
+    }
+
+    .nav-iconbox {
+        display: block;
+    }
+
+    .nav-icon {
+        font-size: 3rem;
     }
 
 
